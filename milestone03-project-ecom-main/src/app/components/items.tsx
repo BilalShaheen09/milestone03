@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import ProductCard from "./productcard";
-import { Product } from "@/pages/types";
+import { Product } from "@/app/components/types";
 
 const Items = () => {
   const [products, setProducts] = useState<Product[]>([]);

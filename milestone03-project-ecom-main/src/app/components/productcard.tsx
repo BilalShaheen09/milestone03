@@ -1,4 +1,4 @@
-import { Product } from '@/pages/types';
+import { Product } from '@/app/components/types';
 import React from 'react';
 
 interface ProductCardProps extends Product {

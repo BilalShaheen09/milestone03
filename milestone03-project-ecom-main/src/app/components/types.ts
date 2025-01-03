@@ -1,3 +1,5 @@
+import { types } from "util";
+
 export interface Product {
     id:number;
     name:string;
@@ -6,3 +8,4 @@ export interface Product {
 
 }
 
+export default types;
